@@ -36,6 +36,7 @@ img {
 }
 .header-logo {
     float: left;
+    width: 10em;
 }
 .main-navbar {
     float: right;
@@ -480,6 +481,9 @@ footer {
   margin: 0 20px;
 }
 @media screen and (max-width: 800px) {
+  main {
+    margin: 0;
+  }
   .hero-section {
     display: block;
     box-shadow: unset;
@@ -496,12 +500,13 @@ footer {
     display: none;
   }
   .hero-headline {
-    font-size: 4.5rem;
+    font-size: 2rem;
     white-space: normal;
   }
   .hero-text {
-    width: unset;
+    width: auto;
     font-size: 1.5rem;
+    margin-right: 3em;
   }
   .hero-img img {
     border-radius: 10px;
