@@ -57,6 +57,7 @@ function validate(form) {
   if(form.first.value.length < 2) {
     erreur = "Veuillez renseigner un prénom de plus de 2 lettres";
     afficherMessageErreur(form.first.parentNode);
+    console.log(form.first.parentNode);
     prenomValide = false;
   } 
     else {
@@ -67,6 +68,8 @@ function validate(form) {
   if(form.last.value.length < 2) {
     erreur = "Veuillez renseigner un nom de plus de 2 lettres"
     afficherMessageErreur(form.last.parentNode);
+    console.log(form.last.parentNode);
+
     nomValide = false;
   } 
     else {
